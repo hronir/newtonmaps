@@ -1,0 +1,39 @@
+#app {
+  z-index: 20000;
+}
+#masthead,
+#footer,
+.quickstart,
+.heading,
+#app {
+  position: fixed;
+  width: 100%;
+}
+#masthead {
+  top: 0px;
+  height: 90px;
+}
+#quickstart {
+  top: 130px;
+  height: 90px;
+}
+#bottomheading {
+  bottom: 33px;
+  height: 0px;
+}
+.withqs .app-normal {
+  top: 220px;
+  bottom: 33px;
+}
+.withoutqs .app-normal {
+  top: 130px;
+  bottom: 33px;
+}
+.app-zoom {
+  top: 0;
+  bottom: 33px;
+}
+#footer {
+  bottom: 0px;
+  height: 30px;
+}

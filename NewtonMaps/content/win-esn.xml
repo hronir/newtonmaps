@@ -1,0 +1,6 @@
+<article title="Missions - To Neptune with swing by Saturn" fixed="true" current="bywindow">
+	<content>
+		<nmapplet layout="@root@data/layout.xml"
+			orbits="@root@orbits/bywindow/ESN.xml" />
+	</content>
+</article>

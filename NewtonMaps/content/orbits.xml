@@ -1,0 +1,57 @@
+<article title="Interplanetary missions - Catalog" current="orbits">
+	<heading>Orbits</heading>
+	<content>
+		<section>
+			<side>
+				<heading>Launch window</heading>
+				<p>To Neptune:</p>
+				<list>
+					<p><pageref id="win-ejn">swinging by Jupiter</pageref></p>
+					<p><pageref id="win-esn">swinging by Saturn</pageref></p>
+					<p><pageref id="win-ejsn">swinging by Jupiter and Saturn</pageref></p>
+				</list>
+			</side>
+			<p>As the alignment of the targeted bodies changes in time,
+			interplanetary orbits that depend of a particular configuration of
+			the planets are only suitable at some limited periods 
+			of time. These allowed periods are called <em>launch windows</em>. 
+			During a <em>launch window</em> the change on the alignment of
+			the bodies is sufficiently small to give similar fitting 
+			orbits. For different <em>launch windows</em> instead, fitting
+			orbits may be substantially different.</p>
+			<p>Since all planets have periodic orbits, the configuration of
+			targeted bodies is quasi-repetitive. In a simple Earth-Planet orbit,
+			by example, the repetition of the configuration is based on the 
+			synodic period (see <wiki term="Orbital_Period">orbital period</wiki>) 
+			of the planet. See also <wiki term="Launch_window">Launch window</wiki>.</p>
+		</section>
+		<section>
+			<side>
+				<heading>By &#916;V</heading>
+				<list>
+					<p><pageref id="dvj2013">To Jupiter</pageref></p>
+				</list>
+			</side>
+			<p>One of the most important properties of an orbit is the cost for reaching it.
+			In general, on board engines are used to drive the spacecraft to its target by doing 
+			short-time impulses.
+			These short impulses can be considered as a first approach like instantaneous velocity
+			changes. The module (the scalar quantity) of the velocity change is called
+			&#916;V. This quantity determines the amount of fuel needed to achieve the maneuver. 
+			</p>
+			<p>In these examples, the &#916;V for an initial orbit insertion is shown. The 
+			maneuver consists of a transfer from a circular Earth stationary orbit (not shown)
+			to the selected orbit.  
+			</p>
+		</section>
+		<section>
+			<side>
+				<heading>Exotic</heading>
+				<list>
+					<p><pageref id="exotic-esjm-retro">Saturn-Jupiter-Mars with a final elliptical retrograde orbit.</pageref></p>
+				</list>
+			</side>
+			<p></p>
+		</section>
+	</content>
+</article>

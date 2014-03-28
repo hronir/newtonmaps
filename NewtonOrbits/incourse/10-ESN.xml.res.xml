@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orbits xmlns="urn:newtonpaths">
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\10-ESN.xml:1
+			operation 2</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="0.0010" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="0.0010" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.008466523119361455" />
+			<parameter name="section.poincareStartVector[1]" value="0.010002475318461131" />
+			<parameter name="section.poincareStartVector[2]" value="1.5696408697497188" />
+			<parameter name="section.poincareStartVector[3]" value="0.49907928390857614" />
+			<parameter name="section.poincareStartVector[4]" value="0.006495048671501628" />
+			<parameter name="section.poincareStartVector[5]" value="-1.6112499254944028" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="0.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="7" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2458553.3794283313" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="1.0E-5" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="5000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2458255.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: IterationOverFlow(13) at
+			C:\Documents and Settings\oal\Bureau\x\10-ESN.xml:1 operation 2&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:43)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			IterationOverFlow(13)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+			at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+</orbits>

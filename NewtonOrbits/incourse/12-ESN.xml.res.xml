@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orbits xmlns="urn:newtonpaths">
+	<result operation="Flyby">
+		<description>21/10/11 21:53 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:2 operation 3 after 15635s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.013379552955647049" />
+			<parameter name="section.poincareStartVector[1]" value="0.010014660799642925" />
+			<parameter name="section.poincareStartVector[2]" value="1.5987182432613123" />
+			<parameter name="section.poincareStartVector[3]" value="-0.7332847822405096" />
+			<parameter name="section.poincareStartVector[4]" value="0.006251724131147138" />
+			<parameter name="section.poincareStartVector[5]" value="-1.2480636021599996" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2456289.7754809316" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2456284.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>21/10/11 22:25 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:1 operation 3 after 17534s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.015476740066467437" />
+			<parameter name="section.poincareStartVector[1]" value="0.010039232279662347" />
+			<parameter name="section.poincareStartVector[2]" value="1.614931075194965" />
+			<parameter name="section.poincareStartVector[3]" value="-0.935794338419424" />
+			<parameter name="section.poincareStartVector[4]" value="0.006413608088237688" />
+			<parameter name="section.poincareStartVector[5]" value="-1.1979100629000692" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2455912.6355886906" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2455906.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:4
+			operation 3</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="2.609209613328898E-4" />
+			<parameter name="section.poincareStartVector[1]" value="0.00999494529864511" />
+			<parameter name="section.poincareStartVector[2]" value="1.5764635593545682" />
+			<parameter name="section.poincareStartVector[3]" value="-0.33889645390321055" />
+			<parameter name="section.poincareStartVector[4]" value="0.0061226409355705095" />
+			<parameter name="section.poincareStartVector[5]" value="-1.463904611475772" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2457043.9963258696" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2457041.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: StepUnderflow(11) at
+			C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:4 operation 3&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:44)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			StepUnderflow(11)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+			at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+	<result operation="Flyby">
+		<description>21/10/11 22:27 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:5 operation 3 after 64s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="-5.15448804400572E-5" />
+			<parameter name="section.poincareStartVector[1]" value="0.009998799673639416" />
+			<parameter name="section.poincareStartVector[2]" value="1.5721673267948657" />
+			<parameter name="section.poincareStartVector[3]" value="-0.13836852493155977" />
+			<parameter name="section.poincareStartVector[4]" value="0.006158699595311524" />
+			<parameter name="section.poincareStartVector[5]" value="-1.5456000607329357" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2457421.1795885083" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2457419.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>21/10/11 22:28 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:6 operation 3 after 77s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.0319314537066126" />
+			<parameter name="section.poincareStartVector[1]" value="0.00999413384659038" />
+			<parameter name="section.poincareStartVector[2]" value="1.5668038579039991" />
+			<parameter name="section.poincareStartVector[3]" value="0.05251986262074509" />
+			<parameter name="section.poincareStartVector[4]" value="0.006123385532765201" />
+			<parameter name="section.poincareStartVector[5]" value="-1.6470161868767206" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2457798.4357226286" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2457797.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>21/10/11 22:30 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:7 operation 3 after 61s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.013972001893220022" />
+			<parameter name="section.poincareStartVector[1]" value="0.010005589311300694" />
+			<parameter name="section.poincareStartVector[2]" value="1.5636965950610942" />
+			<parameter name="section.poincareStartVector[3]" value="0.25459905794808824" />
+			<parameter name="section.poincareStartVector[4]" value="0.006214729155300872" />
+			<parameter name="section.poincareStartVector[5]" value="-1.7084605903770067" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2458175.7709518503" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2458175.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>21/10/11 22:31 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:8 operation 3 after 61s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="-0.005650181339662569" />
+			<parameter name="section.poincareStartVector[1]" value="0.010018463645089173" />
+			<parameter name="section.poincareStartVector[2]" value="1.5603790455916422" />
+			<parameter name="section.poincareStartVector[3]" value="0.46317607945171" />
+			<parameter name="section.poincareStartVector[4]" value="0.006323655150606687" />
+			<parameter name="section.poincareStartVector[5]" value="-1.7611594991315165" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2458553.3989796755" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2458553.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>21/10/11 22:32 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:9 operation 3 after 69s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="3.6395493072495695" />
+			<parameter name="section.poincareStartVector[1]" value="0.010161983360662409" />
+			<parameter name="section.poincareStartVector[2]" value="1.5656510559404155" />
+			<parameter name="section.poincareStartVector[3]" value="1.6657590282118082" />
+			<parameter name="section.poincareStartVector[4]" value="0.008016454398779542" />
+			<parameter name="section.poincareStartVector[5]" value="-1.5702369533959017" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2459308.1218166985" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2458931.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 00:13 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:3 operation 3 after 8394s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.005472211417343751" />
+			<parameter name="section.poincareStartVector[1]" value="0.009994596754991118" />
+			<parameter name="section.poincareStartVector[2]" value="1.583589781105052" />
+			<parameter name="section.poincareStartVector[3]" value="-0.5341797752597818" />
+			<parameter name="section.poincareStartVector[4]" value="0.006103744730487183" />
+			<parameter name="section.poincareStartVector[5]" value="-1.355330144592803" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2456666.8322313796" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2456663.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 00:17 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:11 operation 3 after 199s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="1.6302326386832067" />
+			<parameter name="section.poincareStartVector[1]" value="0.010172441309826731" />
+			<parameter name="section.poincareStartVector[2]" value="1.5180359874415172" />
+			<parameter name="section.poincareStartVector[3]" value="1.6270706226824718" />
+			<parameter name="section.poincareStartVector[4]" value="0.007583380149629088" />
+			<parameter name="section.poincareStartVector[5]" value="-1.918690972452265" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2460064.2592203934" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2459687.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 00:18 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:12 operation 3 after 35s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="-0.12170824231894334" />
+			<parameter name="section.poincareStartVector[1]" value="0.010077029188925977" />
+			<parameter name="section.poincareStartVector[2]" value="1.5464226883315242" />
+			<parameter name="section.poincareStartVector[3]" value="1.5765778633934946" />
+			<parameter name="section.poincareStartVector[4]" value="0.006819656104961577" />
+			<parameter name="section.poincareStartVector[5]" value="-1.7313829919145507" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2460442.610560204" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2460065.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 00:29 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:13 operation 3 after 666s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.031534476896329815" />
+			<parameter name="section.poincareStartVector[1]" value="0.010064647635433686" />
+			<parameter name="section.poincareStartVector[2]" value="1.5548868575918213" />
+			<parameter name="section.poincareStartVector[3]" value="1.7813731635576782" />
+			<parameter name="section.poincareStartVector[4]" value="0.00673859109690118" />
+			<parameter name="section.poincareStartVector[5]" value="-1.7295010308910999" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2460821.1925334404" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2460444.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 00:44 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:10 operation 3 after 7882s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="2.759597608790494" />
+			<parameter name="section.poincareStartVector[1]" value="0.010188435540989301" />
+			<parameter name="section.poincareStartVector[2]" value="1.4688460184732153" />
+			<parameter name="section.poincareStartVector[3]" value="1.7802011092947163" />
+			<parameter name="section.poincareStartVector[4]" value="0.008118959239836614" />
+			<parameter name="section.poincareStartVector[5]" value="-1.2477535630381273" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2459686.120181627" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2459309.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 00:56 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:14 operation 3 after 1579s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="-0.015840793001005164" />
+			<parameter name="section.poincareStartVector[1]" value="0.01006122257619402" />
+			<parameter name="section.poincareStartVector[2]" value="1.5537196394039703" />
+			<parameter name="section.poincareStartVector[3]" value="2.008064851019249" />
+			<parameter name="section.poincareStartVector[4]" value="0.006726779500837568" />
+			<parameter name="section.poincareStartVector[5]" value="-1.7009426686135705" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2461200.0062757316" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2460822.0" />
+		</orbit>
+	</result>
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:16
+			operation 3</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.037318090084030975" />
+			<parameter name="section.poincareStartVector[1]" value="0.010023882746450007" />
+			<parameter name="section.poincareStartVector[2]" value="1.5551025787395452" />
+			<parameter name="section.poincareStartVector[3]" value="2.1818851924385227" />
+			<parameter name="section.poincareStartVector[4]" value="0.006451679993508998" />
+			<parameter name="section.poincareStartVector[5]" value="-1.8559329277415832" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2461579.012773068" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2461578.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: IterationOverFlow(13) at
+			C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:16 operation 3&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:44)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			IterationOverFlow(13)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:15
+			operation 3</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="0.03735583372558237" />
+			<parameter name="section.poincareStartVector[1]" value="0.010023891792495323" />
+			<parameter name="section.poincareStartVector[2]" value="1.555101232498247" />
+			<parameter name="section.poincareStartVector[3]" value="2.181903285618471" />
+			<parameter name="section.poincareStartVector[4]" value="0.006451758047755582" />
+			<parameter name="section.poincareStartVector[5]" value="-1.8559203995452567" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2461579.0122398003" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2461200.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: IterationOverFlow(13) at
+			C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:15 operation 3&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:44)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			IterationOverFlow(13)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:18
+			operation 3</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="-0.9707932302392176" />
+			<parameter name="section.poincareStartVector[1]" value="0.010088960671000066" />
+			<parameter name="section.poincareStartVector[2]" value="1.5560628946192565" />
+			<parameter name="section.poincareStartVector[3]" value="2.3655923025502195" />
+			<parameter name="section.poincareStartVector[4]" value="0.006959404137804273" />
+			<parameter name="section.poincareStartVector[5]" value="-1.5946056708614622" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2462337.671003653" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2462334.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: StepUnderflow(11) at
+			C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:18 operation 3&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:44)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			StepUnderflow(11)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:19
+			operation 3</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="5.392610921648799E-4" />
+			<parameter name="section.poincareStartVector[1]" value="0.009998341658608703" />
+			<parameter name="section.poincareStartVector[2]" value="1.5679042063241782" />
+			<parameter name="section.poincareStartVector[3]" value="2.9118109832254726" />
+			<parameter name="section.poincareStartVector[4]" value="0.006242435779109272" />
+			<parameter name="section.poincareStartVector[5]" value="-1.6346759141601888" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2462717.229410245" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2462712.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: StepUnderflow(11) at
+			C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:19 operation 3&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:44)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			StepUnderflow(11)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+	<result operation="Flyby">
+		<description>C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:20
+			operation 3</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="9.206346085642319E-4" />
+			<parameter name="section.poincareStartVector[1]" value="0.010000940353899779" />
+			<parameter name="section.poincareStartVector[2]" value="1.571952134537032" />
+			<parameter name="section.poincareStartVector[3]" value="-3.119763933598246" />
+			<parameter name="section.poincareStartVector[4]" value="0.006253906367177767" />
+			<parameter name="section.poincareStartVector[5]" value="-1.541321861646429" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2463096.8116189707" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2463090.0" />
+		</orbit>
+		<comment>newtonpath.tasks.BatchException: StepUnderflow(11) at
+			C:\Documents and Settings\oal\Bureau\x\12-ESN.xml:20 operation 3&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:102)&#13;
+			at
+			newtonpath.tasks.BatchComputation.call(BatchComputation.java:246)&#13;
+			at newtonpath.tasks.BatchRunner$1.run(BatchRunner.java:44)&#13;
+			at java.util.concurrent.Executors$RunnableAdapter.call(Unknown
+			Source)&#13;
+			at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)&#13;
+			at java.util.concurrent.FutureTask.run(Unknown Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown
+			Source)&#13;
+			at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown
+			Source)&#13;
+			at java.lang.Thread.run(Unknown Source)&#13;
+			Caused by: newtonpath.ui.OperationException: Operation Exception:
+			StepUnderflow(11)&#13;
+			at newtonpath.ui.AproxObs.distanceApproximation(AproxObs.java:194)&#13;
+			at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#13;
+			at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown
+			Source)&#13;
+			at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+			at
+			newtonpath.member.MemberItemMethod.execute(MemberItemMethod.java:67)&#13;
+			at
+			newtonpath.tasks.BatchComputation$OperationCalculation.execute(BatchComputation.java:100)&#13;
+			... 8 more&#13; </comment>
+	</result>
+	<result operation="Flyby">
+		<description>22/10/11 15:13 C:\Documents and
+			Settings\oal\Bureau\x\12-ESN.xml:17 operation 3 after 16513s.
+		</description>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0" />
+			<parameter name="aproxMetricPar[1]" value="1.0E-4" />
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793" />
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586" />
+			<parameter name="aproxMetricPar[4]" value="1.0E-5" />
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586" />
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211" />
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538" />
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216" />
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643" />
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253" />
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421" />
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5" />
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543" />
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132" />
+			<parameter name="section.poincareStartVector[0]" value="-0.39719142816000436" />
+			<parameter name="section.poincareStartVector[1]" value="0.01005922680385553" />
+			<parameter name="section.poincareStartVector[2]" value="1.5402436113334628" />
+			<parameter name="section.poincareStartVector[3]" value="2.447690076870889" />
+			<parameter name="section.poincareStartVector[4]" value="0.006720121833586744" />
+			<parameter name="section.poincareStartVector[5]" value="-1.5520303707395626" />
+			<parameter name="section.poincareMaxIterRef" value="20" />
+			<parameter name="section.poincareMinTime" value="2000.0" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="9" />
+			<parameter name="section.poincareSense" value="1" />
+			<parameter name="section.epoch" value="2461958.2386498093" />
+			<parameter name="flyByCriterion" value="0.05" />
+			<parameter name="aproxTolErr" value="1.0E-6" />
+			<parameter name="aproxStepPar" value="0.1" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+			<parameter name="aproxMaxIter" value="100000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxInitialEndBodyDistance" value="5.0" />
+			<parameter name="aproxInitialTime" value="2461956.0" />
+		</orbit>
+	</result>
+</orbits>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_18" class="java.beans.XMLDecoder"> 
+ <object id="MultiSplitLayout$Split0" class="org.jdesktop.swingx.MultiSplitLayout$Split"> 
+  <void property="bounds"> 
+   <object class="java.awt.Rectangle"> 
+    <int>0</int> 
+    <int>0</int> 
+    <int>792</int> 
+    <int>521</int> 
+   </object> 
+  </void> 
+  <void id="ArrayList0" property="children"> 
+   <void method="add"> 
+    <object id="MultiSplitLayout$Split1" class="org.jdesktop.swingx.MultiSplitLayout$Split"> 
+     <void property="bounds"> 
+      <object class="java.awt.Rectangle"> 
+       <int>0</int> 
+       <int>0</int> 
+       <int>246</int> 
+       <int>521</int> 
+      </object> 
+     </void> 
+     <void id="ArrayList1" property="children"> 
+      <void method="add"> 
+       <object class="org.jdesktop.swingx.MultiSplitLayout$Leaf"> 
+        <void property="bounds"> 
+         <object class="java.awt.Rectangle"> 
+          <int>0</int> 
+          <int>0</int> 
+          <int>246</int> 
+          <int>164</int> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>0.1.1.2.1</string> 
+        </void> 
+        <void property="parent"> 
+         <object idref="MultiSplitLayout$Split1"/> 
+        </void> 
+        <void property="weight"> 
+         <double>0.5</double> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="org.jdesktop.swingx.MultiSplitLayout$Divider"> 
+        <void property="bounds"> 
+         <object class="java.awt.Rectangle"> 
+          <int>0</int> 
+          <int>164</int> 
+          <int>246</int> 
+          <int>3</int> 
+         </object> 
+        </void> 
+        <void property="parent"> 
+         <object idref="MultiSplitLayout$Split1"/> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="org.jdesktop.swingx.MultiSplitLayout$Leaf"> 
+        <void property="bounds"> 
+         <object class="java.awt.Rectangle"> 
+          <int>0</int> 
+          <int>167</int> 
+          <int>246</int> 
+          <int>354</int> 
+         </object> 
+        </void> 
+        <void property="name"> 
+         <string>0.1.1.2.2</string> 
+        </void> 
+        <void property="parent"> 
+         <object idref="MultiSplitLayout$Split1"/> 
+        </void> 
+        <void property="weight"> 
+         <double>0.5</double> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+     <void property="children"> 
+      <object idref="ArrayList1"/> 
+     </void> 
+     <void property="parent"> 
+      <object idref="MultiSplitLayout$Split0"/> 
+     </void> 
+     <void property="rowLayout"> 
+      <boolean>false</boolean> 
+     </void> 
+     <void property="weight"> 
+      <double>0.5</double> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="org.jdesktop.swingx.MultiSplitLayout$Divider"> 
+     <void property="bounds"> 
+      <object class="java.awt.Rectangle"> 
+       <int>246</int> 
+       <int>0</int> 
+       <int>3</int> 
+       <int>521</int> 
+      </object> 
+     </void> 
+     <void property="parent"> 
+      <object idref="MultiSplitLayout$Split0"/> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object class="org.jdesktop.swingx.MultiSplitLayout$Leaf"> 
+     <void property="bounds"> 
+      <object class="java.awt.Rectangle"> 
+       <int>249</int> 
+       <int>0</int> 
+       <int>543</int> 
+       <int>521</int> 
+      </object> 
+     </void> 
+     <void property="name"> 
+      <string>0.2.2.1.1</string> 
+     </void> 
+     <void property="parent"> 
+      <object idref="MultiSplitLayout$Split0"/> 
+     </void> 
+     <void property="weight"> 
+      <double>0.5</double> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="children"> 
+   <object idref="ArrayList0"/> 
+  </void> 
+ </object> 
+ <object class="java.util.HashMap"> 
+  <void method="put"> 
+   <string>0.2.2.1.1</string> 
+   <object class="newtonpath.ui.JKPlot$EncodedReplacement"> 
+    <void property="drawLine"> 
+     <boolean>true</boolean> 
+    </void> 
+    <void property="drawOrbits"> 
+     <boolean>true</boolean> 
+    </void> 
+    <void property="drawPoints"> 
+     <boolean>true</boolean> 
+    </void> 
+    <void property="name"> 
+     <null/> 
+    </void> 
+   </object> 
+  </void> 
+  <void method="put"> 
+   <string>0.1.1.2.2</string> 
+   <object class="newtonpath.ui.OrbitsList$OrbitsListConfiguration"/> 
+  </void> 
+  <void method="put"> 
+   <string>0.1.1.2.1</string> 
+   <object class="newtonpath.ui.JKOverview$EncodedReplacement"/> 
+  </void> 
+ </object> 
+</java>

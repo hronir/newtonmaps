@@ -1,0 +1,6 @@
+<article title="Missions - To Neptune with double swing by" fixed="true" current="bywindow">
+	<content>
+		<nmapplet layout="@root@data/layout.xml"
+			orbits="@root@orbits/bywindow/EJSN.xml" />
+	</content>
+</article>

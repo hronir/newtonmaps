@@ -1,0 +1,49 @@
+@masterheadheight:  90px ;
+@topheading:  90px ;
+@bottomheading:  0px ;
+@footerheight:  30px ;
+@footergap:  3px ;
+@topbarheight:  40px ;
+#app {
+	z-index: 20000;
+}
+
+#masthead,#footer,.quickstart,.heading,#app {
+	position: fixed;
+	width: 100%;
+}
+
+#masthead {
+	top: 0px;
+	height: @masterheadheight;
+}
+
+#quickstart {
+	top: @topbarheight + @masterheadheight;
+	height: @topheading;
+}
+
+#bottomheading {
+	bottom: @footerheight + @footergap;
+	height: @bottomheading;
+}
+
+.withqs .app-normal {
+	top: @topbarheight + @masterheadheight + @topheading;
+	bottom: @footerheight + @footergap + @bottomheading;
+}
+
+.withoutqs .app-normal {
+	top: @topbarheight + @topheading;
+	bottom: @footerheight + @footergap + @bottomheading;
+}
+
+.app-zoom {
+	top: 0;
+	bottom: @footerheight + @footergap;
+}
+
+#footer {
+	bottom: 0px;
+	height: @footerheight;
+}

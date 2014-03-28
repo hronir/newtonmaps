@@ -1,0 +1,13 @@
+<article title="Welcome" fixed="true" current="index">
+	<quickstart>
+		<p title="From Earth to...">Select the destination on the left bar.</p>
+		<p title="Take a look at the planned journey">Click and drag on the map to change the perspective. Use
+			mouse wheel to zoom.</p>
+		<p title="Lets go">Use play buttons (backward/forward) on the top controls bar
+			to start the journey.</p>
+	</quickstart>
+	<content>
+		<nmapplet colors="@root@data/colors.xml" layout="@root@data/layout.xml"
+			orbits="@root@data/orbits.xml" />
+	</content>
+</article>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks xmlns="urn:newtonpaths">
+	<task>
+		<orbit>
+			<parameter name="aproxInitialTime" value="2458255.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxMetricPar[1]" value="1.0E-4"/>
+			<parameter name="aproxMetricPar[4]" value="1.0E-5"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxInitialEndBodyDistance" value="5.0"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="aproxMaxIter" value="10000"/>
+			<parameter name="aproxStepPar" value="1.0"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+			<parameter name="aproxEndBodyDistance" value="0.00500"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="section.poincareEndBody" value="9"/>
+			<parameter name="aproxMaxIter" value="100000"/>
+			<parameter name="aproxStepPar" value="1.0E-1"/>
+			<parameter name="section.poincareMinTime" value="2000.0"/>
+			<parameter name="aproxEndBodyDistance" value="0.00500"/>
+		</operation>
+	</task>
+</tasks>

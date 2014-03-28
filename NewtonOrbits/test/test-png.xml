@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks xmlns="urn:newtonpaths">
+	<handler type="png">
+		<size x="300" y="200"/>
+		<schema>
+			<color name="sky" rgb="0xff000099"/>
+			<color name="orbits" rgb="0xff9999FF"/>
+			<color name="path" rgb="0xffCC0066"/>
+		</schema>
+		<reference>
+			<rotation>
+				<vector>
+					<component value="0.6092107524307017"/>
+					<component value="-0.3462255974261296"/>
+					<component value="0.7134354174063245"/>
+					<component value="0"/>
+				</vector>
+				<vector>
+					<component value="0.7592829051396573"/>
+					<component value="0.5142443293038893"/>
+					<component value="-0.398801002683636"/>
+					<component value="0"/>
+				</vector>
+				<vector>
+					<component value="-0.22880500231747494"/>
+					<component value="0.7846531752728152"/>
+					<component value="0.5761663522358696"/>
+					<component value="0"/>
+				</vector>
+				<vector>
+					<component value="0"/>
+					<component value="0"/>
+					<component value="0"/>
+					<component value="1"/>
+				</vector>
+			</rotation>
+			<focus value="38.761339893563"/>
+			<zoom value="0.35871360995626467"/>
+			<translation>
+				<component value="0"/>
+				<component value="0"/>
+				<component value="0"/>
+				<component value="1"/>
+			</translation>
+		</reference>
+	</handler>
+	
+	<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="6.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2459503"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<format name="Flyby">
+			{section.calculateStartDV}
+		</format>
+	</task>
+
+	<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="5.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2459503"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+	</task>
+
+</tasks>

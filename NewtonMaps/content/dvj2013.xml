@@ -1,0 +1,6 @@
+<article title="Missions - To Jupiter/2013 by &#916;V" fixed="true" current="dvj2013">
+	<content>
+		<nmapplet layout="@root@data/layout.xml"
+			orbits="@root@orbits/bydv/EJ2013.xml" />
+	</content>
+</article>

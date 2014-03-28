@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks xmlns="urn:newtonpaths">
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="8.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="7.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="6.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="5.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="4.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="3.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="2.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="1.0"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance" value="0.5"/>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="2460259"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="7"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010"/>
+			<parameter name="aproxMetricPar[4]" value="0.000010"/>
+			<parameter name="aproxMaxIter" value="5000"/>
+			<parameter name="aproxEndBodyDistance" value="0.0050"/>
+		</operation>
+	</task>
+</tasks>

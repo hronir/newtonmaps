@@ -1,0 +1,101 @@
+<article title="Introduction to interplanetary traveling" current="introduction">
+	<heading>The motion in the solar system</heading>
+	<content>
+		<section>
+			<side>
+				<heading>Bodies</heading>
+				<list>
+					<p><wiki term="Sun">The sun</wiki></p>
+					<p><wiki term="Planet">Planets</wiki></p>
+					<p><wiki term="Natural_satellite">Moons</wiki></p>
+					<p><wiki term="Asteroid">Asteroids</wiki></p>
+					<p><wiki term="Comet">Comets</wiki></p>
+					<p><wiki term="Spacecraft">Spacecraft</wiki></p>
+				</list>
+			</side>
+			<p>The solar system is composed of several bodies in motion subject
+				to mutually attracting forces. These forces are strong enough to
+				avoid the objects from escaping from the system. Since the
+				surrounding space is almost perfectly empty there is no friction nor
+				other significant motion-destructive force, so the objects keep
+				endlessly moving. The planets, for example, are turning around the
+				sun since some billion years.
+			</p>
+			<p>Actually, the only thing that could stop moving an object is a
+				collision with another object. But the solar system bodies are so
+				small in front of its surrounding space that a collision becomes
+				really improbable. Even the sun, the biggest object in the system,
+				is insignificant compared to its distance to Mercury, the nearest
+				planet.
+			</p>
+		</section>
+		<section>
+			<side>
+				<heading>Orbits</heading>
+				<list>
+					<p><wiki term="Heliocentric_orbit">Heliocentric</wiki></p>
+					<list>
+						<p>Planets</p>
+						<p>Asteroids</p>
+						<p>Comets</p>
+					</list>
+					<p>Planet-centered</p>
+					<list>
+						<p>Moons</p>
+					</list>
+					<p>Interplanetary</p>
+				</list>
+			</side>
+			<p>The paths of these objects in the solar system are called orbits.
+				The most obvious cases are the planets. In a first approach, they
+				turn around the sun in elliptical orbits. They do the complete turn
+				in a finite time (~365.25 days in the case of the Earth) after what
+				they begin again, starting from the same point, with the same
+				velocity, by the same path. Other bodies have similar orbits.
+				Asteroids and some comets have also elliptical orbits around the
+				sun.
+			</p>
+			<p>Moons have more complicated orbits since they
+				turn around the planets. In fact, from the point of view of the
+				solar system satellite orbits are not closed. They do spirals
+				twisting around planet orbits.
+			</p>
+			<p>One can say that everything that lays in the solar system moves in
+				an orbit. Even the sun, who lays almost static, pulled by the
+				planets, moves slightly, and its path is an orbit too.
+			</p>
+		</section>
+		<section>
+			<side>
+				<heading>Spacecrafts</heading>
+				<list>
+					<p>Maneuvers</p>
+					<p>Interplanetary orbits</p>
+				</list>
+			</side>
+			<p>
+				Even spacecrafts move often on orbits. Beside the maneuver
+				operations, spacecrafts spend the most part of the time with the
+				engines switched off, saving fuel and taking advantage of its own
+				inertia. During these periods of inactivity, the spacecraft moves
+				exactly as a pebble would do. So, in general, spacecraft moves on
+				segments of orbit with short periods of transition where the engines
+				are running. These periods of maneuver operations are called
+				<em>orbit transitions</em>
+				because they allow the spacecraft to move from an orbit to another
+				one.
+			</p>
+		</section>
+		<section>
+			<p>One can study the set of all possible orbits in the solar system.
+				The objective of this site is to show some special orbits. A kind of
+				orbits similar to the orbits used to travel in the solar system. The
+				difference from real interplanetary missions is optimality. Real
+				spacecraft orbits are chosen carefully to get the best results in
+				terms of cost, time, risk and other criteria. The orbits shown in
+				this site are not optimal but they illustrate some interesting
+				properties
+			</p>
+		</section>
+	</content>
+</article>

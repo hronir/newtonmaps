@@ -1,0 +1,6 @@
+<article title="Missions - Exotic orbits" fixed="true" current="exotic">
+	<content>
+		<nmapplet layout="@root@data/layout.xml"
+			orbits="@root@orbits/exotic/ESJM-reotrograde.xml" />
+	</content>
+</article>

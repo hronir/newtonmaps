@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks xmlns="urn:newtonpaths">
+	<task>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0"/>
+			<parameter name="aproxMetricPar[1]" value="0.0010"/>
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793"/>
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586"/>
+			<parameter name="aproxMetricPar[4]" value="0.0010"/>
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586"/>
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211"/>
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538"/>
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216"/>
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643"/>
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253"/>
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421"/>
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5"/>
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543"/>
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132"/>
+			<parameter name="section.poincareStartVector[0]" value="-5.779737717438271E-6"/>
+			<parameter name="section.poincareStartVector[1]" value="0.009996010471680188"/>
+			<parameter name="section.poincareStartVector[2]" value="1.57073774109185"/>
+			<parameter name="section.poincareStartVector[3]" value="0.8412244052780461"/>
+			<parameter name="section.poincareStartVector[4]" value="0.006106841769483676"/>
+			<parameter name="section.poincareStartVector[5]" value="-1.6324915755122271"/>
+			<parameter name="section.poincareMaxIterRef" value="20"/>
+			<parameter name="section.poincareMinTime" value="3000.0"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="9"/>
+			<parameter name="section.poincareSense" value="1"/>
+			<parameter name="section.epoch" value="2458937.348573527"/>
+			<parameter name="flyByCriterion" value="0.05"/>
+			<parameter name="aproxTolErr" value="1.0E-6"/>
+			<parameter name="aproxStepPar" value="5.0E-7"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+			<parameter name="aproxEndBodyDistance" value="0.05"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxInitialEndBodyDistance" value="5.0"/>
+			<parameter name="aproxInitialTime" value="2458935.0"/>
+		</orbit>
+		<operation name="Flyby">
+			<parameter name="section.poincareMinTime" value="3000.0"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="section.poincareEndBody" value="9"/>
+			<parameter name="aproxStepPar" value="5.0E-7"/>
+			<parameter name="aproxEndBodyDistance" value="0.0500"/>
+			<parameter name="aproxMaxIter" value="30000"/>
+		</operation>
+	</task>
+
+	<task>
+		<orbit>
+			<parameter name="aproxMetricPar[0]" value="365.0"/>
+			<parameter name="aproxMetricPar[1]" value="0.0010"/>
+			<parameter name="aproxMetricPar[2]" value="3.141592653589793"/>
+			<parameter name="aproxMetricPar[3]" value="6.283185307179586"/>
+			<parameter name="aproxMetricPar[4]" value="0.0010"/>
+			<parameter name="aproxMetricPar[5]" value="6.283185307179586"/>
+			<parameter name="section.startBase[0][0]" value="-0.7677010853505211"/>
+			<parameter name="section.startBase[0][1]" value="0.5878903055324538"/>
+			<parameter name="section.startBase[0][2]" value="0.2549902590543216"/>
+			<parameter name="section.startBase[1][0]" value="-0.6408081100454643"/>
+			<parameter name="section.startBase[1][1]" value="-0.7043654731982253"/>
+			<parameter name="section.startBase[1][2]" value="-0.3053428339853421"/>
+			<parameter name="section.startBase[2][0]" value="9.824251594720002E-5"/>
+			<parameter name="section.startBase[2][1]" value="-0.3978118510391543"/>
+			<parameter name="section.startBase[2][2]" value="0.9174670138600132"/>
+			<parameter name="section.poincareStartVector[0]" value="-3.975027191474208E-6"/>
+			<parameter name="section.poincareStartVector[1]" value="0.010004659496886262"/>
+			<parameter name="section.poincareStartVector[2]" value="1.570501978331638"/>
+			<parameter name="section.poincareStartVector[3]" value="0.20307893236372507"/>
+			<parameter name="section.poincareStartVector[4]" value="0.006081162201508618"/>
+			<parameter name="section.poincareStartVector[5]" value="-1.5889321628951465"/>
+			<parameter name="section.poincareMaxIterRef" value="20"/>
+			<parameter name="section.poincareMinTime" value="3000.0"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="section.poincareStartBody" value="4"/>
+			<parameter name="section.poincareEndBody" value="9"/>
+			<parameter name="section.poincareSense" value="1"/>
+			<parameter name="section.epoch" value="2458537.378677533"/>
+			<parameter name="flyByCriterion" value="0.05"/>
+			<parameter name="aproxTolErr" value="1.0E-6"/>
+			<parameter name="aproxStepPar" value="5.0E-7"/>
+			<parameter name="aproxMinStepPar" value="1.0E-11"/>
+			<parameter name="aproxEndBodyDistance" value="0.05"/>
+			<parameter name="aproxInitialStartBodyDistance" value="0.01"/>
+			<parameter name="aproxInitialEndBodyDistance" value="5.0"/>
+			<parameter name="aproxInitialTime" value="2458255.0"/>
+		</orbit>
+		<operation name="Flyby">
+			<parameter name="section.poincareMinTime" value="3000.0"/>
+			<parameter name="section.poincareMaxTime" value="20000.0"/>
+			<parameter name="section.poincareEndBody" value="9"/>
+			<parameter name="aproxStepPar" value="5.0E-7"/>
+			<parameter name="aproxEndBodyDistance" value="0.0500"/>
+			<parameter name="aproxMaxIter" value="30000"/>
+		</operation>
+	</task>
+
+</tasks>

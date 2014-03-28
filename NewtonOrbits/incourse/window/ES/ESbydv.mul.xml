@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks xmlns="urn:newtonpaths">
+	<export parameter="aproxInitialTime">
+		<exportvalue>2459881</exportvalue>
+		<exportvalue>2460259</exportvalue>
+		<exportvalue>2460637</exportvalue>
+		<exportvalue>2461015</exportvalue>
+		<exportvalue>2461393</exportvalue>
+		<exportvalue>2461772</exportvalue>
+		<exportvalue>2462150</exportvalue>
+		<exportvalue>2462528</exportvalue>
+		<exportvalue>2462906</exportvalue>
+		<exportvalue>2463284</exportvalue>
+		<exportvalue>2463662</exportvalue>
+		<exportvalue>2464040</exportvalue>
+		<exportvalue>2464418</exportvalue>
+		<exportvalue>2464796</exportvalue>
+		<exportvalue>2465174</exportvalue>
+		<exportvalue>2465553</exportvalue>
+		<exportvalue>2465931</exportvalue>
+		<exportvalue>2466309</exportvalue>
+		<exportvalue>2466687</exportvalue>
+		<exportvalue>2467065</exportvalue>
+		<exportvalue>2467443</exportvalue>
+		<exportvalue>2467821</exportvalue>
+	</export>
+	<task>
+		<orbit>
+			<parameter name="aproxInitialEndBodyDistance">
+				<value value="8.0" />
+				<value value="7.0" />
+				<value value="6.0" />
+				<value value="5.0" />
+				<value value="4.0" />
+				<value value="3.0" />
+				<value value="2.0" />
+				<value value="1.0" />
+				<value value="0.5" />
+			</parameter>
+		</orbit>
+		<operation name="Launch">
+			<parameter name="aproxInitialTime" value="@aproxInitialTime@" />
+			<parameter name="section.poincareStartBody" value="4" />
+			<parameter name="section.poincareEndBody" value="7" />
+			<parameter name="section.poincareMaxTime" value="20000.0" />
+			<parameter name="aproxInitialStartBodyDistance" value="0.01" />
+			<parameter name="aproxMinStepPar" value="1.0E-11" />
+		</operation>
+		<operation name="Flyby">
+			<parameter name="aproxMetricPar[1]" value="0.000010" />
+			<parameter name="aproxMetricPar[4]" value="0.000010" />
+			<parameter name="aproxMaxIter" value="5000" />
+			<parameter name="aproxEndBodyDistance" value="0.0050" />
+		</operation>
+	</task>
+</tasks>
