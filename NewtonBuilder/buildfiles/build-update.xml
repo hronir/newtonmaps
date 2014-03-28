@@ -1,0 +1,10 @@
+<project name="newtonpath-update">
+	<target name="update-results">
+		
+		<echo message="Orbits dir: ${newtonortbits.dir}"/>
+		
+		<xslt style="${newtonbuilder.dir}/transform/update-01.xsl" destdir="build" basedir="${newtonortbits.dir}" extension=".xml">
+			<include name="**/*.xml" />
+		</xslt>
+	</target>
+</project>

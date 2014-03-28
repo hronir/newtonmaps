@@ -1,0 +1,210 @@
+<project basedir="." name="newtonpath">
+	<property name="config.name" value="newtonmaps"/>
+
+	<filter filtersfile="config/${config.name}.properties" />
+	<property file="config/${config.name}.properties" />
+
+	<property name="newtonmaps.dir" location="../NewtonMaps" />
+	<property name="newtonpath.dir" location="../newtonpath" />
+	<property name="newtonortbits.dir" location="../NewtonOrbits" />
+
+	<property name="delivery.dir" location="delivery"/>
+
+	<property name="winlink.command.location" location="./scripts/winmakelink.vbs"/>
+	<property name="less.command.location" location="${newtonmaps.dir}/lib/less/lessc.cmd" />
+
+	<property name="newtonpath.src.location" value="${newtonpath.dir}/src" />
+
+	<property name="newtonmaps.jar.name" value="nmaps.jar" />
+	<property name="newtonmaps.webcontent.location" value="${newtonmaps.dir}/WebContent" />
+	<property name="newtonmaps.content.location" value="${newtonmaps.dir}/content" />
+	<property name="newtonmaps.xslformatter.location" value="${newtonmaps.dir}/formatter/page.xsl" />
+
+	<property name="newtonmaps.source.location" value="${newtonmaps.dir}/source" />
+	<property name="newtonmaps.res.location" value="${newtonmaps.dir}/res" />
+	<property name="newtonmaps.resources.location" value="${newtonmaps.webcontent.location}/resources" />
+
+	<property name="build.dir" location="build" />
+	<property name="build.newtonmaps.jar.location" value="${build.dir}/${newtonmaps.jar.name}" />
+
+	<property name="newtonorbits.web.location" value="${newtonortbits.dir}/web" />
+
+	<target name="jar" depends="bin">
+		<mkdir dir="${build.dir}" />
+		<jar destfile="${build.dir}/nmaps.jar" basedir="${build.dir}/bin">
+			<manifest>
+				<attribute name="Main-Class" value="newtonpath.application.JKWin" />
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="bin">
+		<mkdir dir="${build.dir}/bin" />
+		<javac includeantruntime="false" srcdir="${newtonpath.src.location}" destdir="${build.dir}/bin" fork="true" source="1.5" target="1.5" debug="true" optimize="true" />
+		<copy todir="${build.dir}/bin">
+			<fileset dir="${newtonpath.src.location}">
+				<include name="**/eph.dat" />
+				<include name="**/*.png" />
+				<include name="META-INF/**" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean" depends="clean.web">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="clean.web">
+		<delete verbose="" includeemptydirs="true">
+			<fileset dir="${newtonmaps.webcontent.location}">
+				<exclude name="META-INF/**/*"/>
+				<exclude name="WEB-INF/**"/>
+			</fileset>
+		</delete>
+	</target>
+
+	<target name="-compile.less">
+
+		<property name="input.less.location" location="${input.less}" />
+		<property name="output.css.location" location="${output.css}" />
+
+		<dirname file="${output.css.location}" property="output.css.dir" />
+		<basename file="${output.css.location}" property="output.css.name" />
+		<dirname file="${input.less.location}" property="input.less.dir" />
+		<basename file="${input.less.location}" property="input.less.name" />
+
+		<mkdir dir="${output.css.dir}" />
+		<echo message="Executing 'lessc' on ${input.less.dir}" />
+		<echo message="${less.command.location} ${input.less.name} ${output.css.location}" />
+
+		<exec executable="${less.command.location}" dir="${input.less.dir}" osfamily="windows">
+			<arg value="${input.less.name}" />
+			<arg value="${output.css.location}" />
+		</exec>
+	</target>
+
+	<target name="archive" depends="jar,web">
+		<mkdir dir="${delivery.dir}" />
+		<zip destfile="${delivery.dir}/${newton.config.site.name}.zip" basedir="${newtonmaps.webcontent.location}">
+			<exclude name="WEB-INF/"/>
+			<exclude name="META-INF/"/>
+			<exclude name="bootstrap/"/>
+			<exclude name="example/"/>
+			<include name="**/*.*" />
+		</zip>
+	</target>
+
+	<target name="css">
+		<mkdir dir="${newtonmaps.resources.location}" />
+		<antcall target="-compile.less" inheritall="false">
+			<param name="input.less" value="${newtonmaps.dir}/lib/bootstrap/bootstrap.less" />
+			<param name="output.css" value="${newtonmaps.resources.location}/css/bootstrap.css" />
+		</antcall>
+		<antcall target="-compile.less" inheritall="false">
+			<param name="input.less" value="${newtonmaps.source.location}/less/fixed.less" />
+			<param name="output.css" value="${newtonmaps.resources.location}/css/fixed.css" />
+		</antcall>
+		<antcall target="-compile.less" inheritall="false">
+			<param name="input.less" value="${newtonmaps.source.location}/less/test.less" />
+			<param name="output.css" value="${newtonmaps.resources.location}/css/test.css" />
+		</antcall>
+	</target>
+
+	<target name="resources" depends="jar,css">
+		<mkdir dir="${newtonmaps.resources.location}" />
+		<copy todir="${newtonmaps.resources.location}" filtering="true">
+			<fileset dir="${newtonmaps.res.location}">
+				<include name="**/*" />
+				<exclude name="img/**/*" />
+			</fileset>
+		</copy>
+		<copy todir="${newtonmaps.resources.location}">
+			<fileset dir="${newtonmaps.res.location}">
+				<include name="img/**/*" />
+			</fileset>
+		</copy>
+		<copy file="${build.newtonmaps.jar.location}" todir="${newtonmaps.resources.location}" />
+	</target>
+
+	<target name="result-to-task">
+		<xslt style="transform/res2task.xsl" destdir="build" basedir="drop">
+			<include name="*.xml" />
+			<globmapper from="*.res.xml" to="*.xml" />
+
+		</xslt>
+	</target>
+
+	<target name="update">
+		<xslt style="transform/actualitzacio.xsl" destdir="build" basedir="../NewtonOrbits/" extension=".xml">
+			<include name="**/*.xml" />
+		</xslt>
+
+	</target>
+
+	<target name="content">
+		<xslt style="${newtonmaps.xslformatter.location}" destdir="${newtonmaps.webcontent.location}" basedir="${newtonmaps.content.location}">
+			<include name="*.xml" />
+			<globmapper from="*.xml" to="*/index.html" />
+		</xslt>
+		<xslt style="${newtonmaps.xslformatter.location}" destdir="${newtonmaps.webcontent.location}" basedir="${newtonmaps.content.location}">
+			<include name="index.xml" />
+			<globmapper from="index.xml" to="index.html" />
+		</xslt>
+		<replace dir="${newtonmaps.webcontent.location}">
+			<include name="*/*.html" />
+			<replacefilter token="@root@" value="../" />
+		</replace>
+		<replace dir="${newtonmaps.webcontent.location}">
+			<include name="*.html" />
+			<replacefilter token="@root@" value="" />
+		</replace>
+
+		<copy todir="${newtonmaps.webcontent.location}">
+			<fileset dir="${newtonorbits.web.location}">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="orbitfinder" depends="jar">
+		<mkdir dir="${delivery.dir}" />
+		<zip destfile="${delivery.dir}/orbitfinder.zip"  update="false">
+			<fileset dir="${build.dir}">
+				<include name="*.jar"/>
+			</fileset>
+			<fileset dir="generic-files/exec">
+				<include name="*.bat"/>
+			</fileset>
+			<fileset dir="${newtonortbits.dir}/web">
+				<include name="data/*"/>
+			</fileset>
+		</zip>
+	</target>
+
+	<target name="web" depends="clean.web,resources,content" />
+
+	<target name="all" depends="clean">
+		<antcall target="archive" inheritall="false" inheritrefs="false">
+			<param name="config.name" value="newtonmaps"/>
+		</antcall>
+		<antcall target="archive" inheritall="false" inheritrefs="false">
+			<param name="config.name" value="staticloud"/>
+		</antcall>
+		<antcall target="orbitfinder"/>
+		<antcall target="clean"/>
+	</target>
+
+	<target name="image.fusion">
+		<pathconvert property="cmdImages" pathsep=" " >
+			<fileset dir="drop" includes="*.png"/>
+		</pathconvert>
+
+		<java classname="newtonpath.builder.ImageFusion">
+			<arg line="-c"/>
+			<arg line="0x000099"/>
+			<arg line="-o"/>
+			<arg line="build/result.png"/>
+			<arg line="${cmdImages}"/>
+		</java>
+	</target>
+</project>

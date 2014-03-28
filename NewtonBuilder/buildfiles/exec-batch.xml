@@ -1,0 +1,88 @@
+<project basedir=".." name="newtonpath-batch">
+	<property name="transform.location" location="transform" />
+
+	<target name="image-blend">
+		<pathconvert property="cmdImages" pathsep=" ">
+			<fileset dir="drop" includes="*.png" />
+		</pathconvert>
+
+		<java classname="newtonpath.builder.ImageFusion">
+			<arg line="-c" />
+			<arg line="0x000099" />
+			<arg line="-o" />
+			<arg line="build/result.png" />
+			<arg line="${cmdImages}" />
+		</java>
+	</target>
+
+	<target name="result-to-task">
+		<xslt style="transform/res2task.xsl" destdir="build" basedir="drop">
+			<include name="*.xml" />
+			<globmapper from="*.res.xml" to="*.xml" />
+		</xslt>
+	</target>
+
+	<target name="explode-multival">
+		<property name="input.folder" value="." />
+		<xslt style="${transform.location}/multival.xsl" destdir="${input.folder}" basedir="${input.folder}">
+			<include name="*.mul.xml" />
+			<globmapper from="*.mul.xml" to="*.xml" />
+		</xslt>
+	</target>
+
+	<target name="duplicate-task">
+		<property name="input.file" value="drop" />
+		<pathconvert targetos="unix" property="input.file.location">
+			<path location="${input.file}" />
+		</pathconvert>
+		<echo message="Duplicate file: ${input.file.location}" />
+
+		<subant target="apply-task-values" genericantfile="${ant.file}">
+			<property name="taskfile" value="${input.file}" />
+			<dirset dir="${input.file.location}/..">
+				<include name="*" />
+			</dirset>
+		</subant>
+	</target>
+
+	<target name="apply-task-values">
+		<property name="taskfile" value="task.xml" />
+		<copy file="${taskfile}" todir=".">
+			<filterset filtersfile="parameters.properties" />
+			<flattenmapper />
+		</copy>
+	</target>
+
+	<target name="-copy-task">
+		<property name="taskfile" value="task.xml" />
+		<property name="value" value="0" />
+		
+		<dirname file="${taskfile}" property="taskdir" />
+		<basename file="${taskfile}" property="taskfilename" suffix=".xml"/>
+		
+		<xslt style="${transform.location}/copytask-properties.xsl" in="${taskdir}/${taskfilename}.mul.xml" out="${taskdir}/${value}.properties">
+			<param name="val" expression="${value}"/>
+		</xslt>
+		
+		<copy file="${taskdir}/${taskfilename}.xml" tofile="${taskdir}/${taskfilename}.${value}.xml">
+			<filterset filtersfile="${taskdir}/${value}.properties" />
+		</copy>
+	</target>
+	
+	<target name="copy-task">
+		<property name="taskfile" value="task.xml" />
+
+		<dirname file="${taskfile}" property="taskdir" />
+		<basename file="${taskfile}" property="taskfilename" suffix=".mul.xml"/>
+
+		<xslt style="${transform.location}/multival.xsl" 
+			out="${taskdir}/${taskfilename}.xml"
+			in="${taskfile}"/>
+
+		<xslt style="${transform.location}/copytask-template.xsl" 
+			in="${taskfile}" out="${taskdir}/build.xml"/>
+		
+		<ant antfile="${taskdir}/build.xml"/>
+		<delete file="${taskdir}/build.xml"/>
+	</target>
+</project>
