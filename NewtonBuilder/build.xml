@@ -30,14 +30,22 @@
 	<property name="newtonorbits.web.location" value="${newtonortbits.dir}/web" />
 
 	<target name="jar" depends="bin">
-		<mkdir dir="${build.dir}" />
-		<jar destfile="${build.dir}/nmaps.jar" basedir="${build.dir}/bin">
+		<delete dir="${build.dir}" includes="**/*.jar"/>
+		<mkdir dir="${build.dir}/unsigned" />
+		<jar destfile="${build.dir}/unsigned/nmaps.jar" basedir="${build.dir}/bin">
 			<manifest>
 				<attribute name="Main-Class" value="newtonpath.application.JKWin" />
 			</manifest>
 		</jar>
+	 
+		<signjar destdir="${build.dir}"
+			alias="newtonmaps" keystore="sign/newtonmapsKeyStore" storepass="newton">
+			<path>
+				<fileset dir="${build.dir}/unsigned" includes="**/*.jar"/>
+			</path>
+		</signjar>
 	</target>
-
+	
 	<target name="bin">
 		<mkdir dir="${build.dir}/bin" />
 		<javac includeantruntime="false" srcdir="${newtonpath.src.location}" destdir="${build.dir}/bin" fork="true" source="1.5" target="1.5" debug="true" optimize="true" />
@@ -188,7 +196,7 @@
 			<param name="config.name" value="newtonmaps"/>
 		</antcall>
 		<antcall target="archive" inheritall="false" inheritrefs="false">
-			<param name="config.name" value="staticloud"/>
+			<param name="config.name" value="heroku"/>
 		</antcall>
 		<antcall target="orbitfinder"/>
 		<antcall target="clean"/>
