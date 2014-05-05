@@ -11,8 +11,8 @@ public class EphLoaderFile implements EphLoader {
 
 	// private boolean debug=false;
 	public void ephOpen(double jday) throws Exception {
-		this.f = new BufferedReader(new InputStreamReader(EphLoaderFile.class
-				.getResourceAsStream("eph.dat")));
+		this.f = new BufferedReader(new InputStreamReader(
+				EphLoaderFile.class.getResourceAsStream("eph.dat")));
 	}
 
 	private String ephGetLine() throws Exception {
