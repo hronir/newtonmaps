@@ -8,9 +8,9 @@ import junit.framework.TestSuite;
  * Unit test for simple App.
  */
 public class ConicTest extends TestCase {
-	ConicMatrix cm = new ConicMatrix().setValues(2, 1, 0.5, 0, 10, -350);
-	ConicMatrix slope = this.cm.calculateSlopeConic(0, 1);
-	ConicMatrix cmT = this.cm.calculateVariableSwap(0, 1);
+	ConicMatrix cm = new ConicMatrix().setValues(2, 1, 2.5, 0, 0.2, -650);
+	ConicMatrix slope = this.cm.slopeConic(0, 1, new ConicMatrix());
+	ConicMatrix cmT = this.cm.swapVariable(0, 1, new ConicMatrix());
 
 	/**
 	 * Create the test case
@@ -43,8 +43,27 @@ public class ConicTest extends TestCase {
 	public void testGradient() {
 		for (double x = -80D; x < 80D; x++) {
 			for (double y = -80D; y < 80D; y++) {
-				int s = gradientSign(this.cm, x, y, 1D);
-				System.out.print(s < 0 ? "-" : s > 0 ? "|" : " ");
+				int s = this.cm.evaluateSlopeSign(x, y, 1D);
+				System.out.print(s < 0 ? "\\" : s > 0 ? "/" : " ");
+				double v = this.cm.evaluate(x, y, 1D);
+				System.out.print(Math.abs(v) <= 1.e-1D ? " " : v < 0 ? "."
+						: " ");
+			}
+			System.out.println();
+		}
+		assertTrue(true);
+	}
+
+	public void testSign() {
+		for (double x = -80D; x < 80D; x++) {
+			for (double y = -80D; y < 80D; y++) {
+				int s = this.cm.evaluateSlopeSign(0, x, y, 1D);
+				System.out.print(s < 0 ? "<" : s > 0 ? ">" : " ");
+				int sY = this.cm.evaluateSlopeSign(1, x, y, 1D);
+				System.out.print(sY < 0 ? "v" : sY > 0 ? "^" : " ");
+				double v = this.cm.evaluate(x, y, 1D);
+				System.out.print(Math.abs(v) <= 1.e-1D ? " " : v < 0 ? "¤"
+						: " ");
 			}
 			System.out.println();
 		}
@@ -54,8 +73,7 @@ public class ConicTest extends TestCase {
 	public void testAll() {
 		for (double x = -80D; x < 80D; x++) {
 			for (double y = -80D; y < 80D; y++) {
-				int s = -sign(this.slope, x, y, 1D);// gradientSign(cm, x, y,
-													// 1D);
+				int s = -sign(this.slope, x, y, 1D);
 				System.out.print(s < 0 ? "-" : s > 0 ? "|" : "+");
 				double v = this.cm.evaluate(x, y, 1D);
 				System.out.print(Math.abs(v) <= 1.e-1D ? " " : v < 0 ? "@"
@@ -66,13 +84,52 @@ public class ConicTest extends TestCase {
 		assertTrue(true);
 	}
 
-	private static int gradientSign(ConicMatrix m, double... p) {
-		double a[] = new double[ConicMatrix.DIMENSION];
-		for (int i = 0; i < ConicMatrix.DIMENSION; i++) {
-			a[i] = m.evaluateGradient(i, p);
+	public void testContext() {
+		int min = -80;
+		int max = 80;
+		int size = max - min;
+		for (double v : new double[] { -15D, -10D, -5D, 5D, 15D }) {
+			double[] table = new double[2];
+
+			char[][] data = new char[size][size];
+
+			int i = 0;
+			int j = 0;
+			for (double x = min; x < max; x++, i++) {
+				j = 0;
+				for (double y = min; y < max; y++, j++) {
+					double vv = this.cm.evaluate(x, y, 1D);
+					data[i][j] = (vv < 0 ? '.' : ' ');
+				}
+			}
+
+			ConicContext ctx = new ConicContext();
+
+			double[] p = new double[2];
+
+			int t = QuadricSection.section(this.cm, v, min, max, table);
+			for (int z = 0; z < t; z++) {
+				double d = Math.floor(table[z]);
+				data[(int) (d - min)][(int) (v - min)] = '*';
+				ctx.initialize(this.cm, d, v, min, max, min, max);
+
+				for (int tm = 0; tm < 30; tm++) {
+					ctx.getCurrentInnerPoint(p);
+					data[(int) (p[0] - min)][(int) (p[1] - min)] = '+';
+					ctx.getCurrentOuterPoint(p);
+					data[(int) (p[0] - min)][(int) (p[1] - min)] = '@';
+					ctx.next();
+				}
+			}
+
+			for (j = 0; j < size; j++) {
+				for (i = 0; i < size; i++) {
+					System.out.print(data[i][j]);
+				}
+				System.out.println();
+			}
 		}
-		double d = Math.abs(a[0]) - Math.abs(a[1]);
-		return d == 0D ? 0 : d > 0D ? 1 : -1;
+		assertTrue(true);
 	}
 
 	private static int sign(ConicMatrix m, double... p) {

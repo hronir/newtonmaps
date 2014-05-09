@@ -22,6 +22,15 @@ public class ConicMatrix {
 		return this;
 	}
 
+	public ConicMatrix copyTo(ConicMatrix result) {
+		for (int i = 0; i < DIMENSION; i++) {
+			for (int j = 0; j <= i; j++) {
+				result.coefficients[i][j] = this.coefficients[i][j];
+			}
+		}
+		return result;
+	}
+
 	public double evaluate(double... p) {
 		double v = 0;
 		for (int i = 0; i < DIMENSION; i++) {
@@ -45,8 +54,7 @@ public class ConicMatrix {
 		return i < j ? this.coefficients[j][i] : this.coefficients[i][j];
 	}
 
-	public ConicMatrix calculateSlopeConic(int a, int b) {
-		ConicMatrix result = new ConicMatrix();
+	public ConicMatrix slopeConic(int a, int b, ConicMatrix result) {
 		for (int i = 0; i < DIMENSION; i++) {
 			for (int j = 0; j <= i; j++) {
 				result.coefficients[i][j] = -getCoefficient(i, a)
@@ -57,8 +65,15 @@ public class ConicMatrix {
 		return result;
 	}
 
-	public ConicMatrix calculateVariableSwap(int a, int b) {
-		ConicMatrix result = new ConicMatrix();
+	// public int evaluateSlopeSign(int a, double... p) {
+	// double d = 0;
+	// for (int k = 0; k < DIMENSION; k++) {
+	// d += getCoefficient(a, k) * p[k];
+	// }
+	// return d < 0D ? -1 : d > 0D ? 1 : 0;
+	// }
+
+	public ConicMatrix swapVariable(int a, int b, ConicMatrix result) {
 		for (int i = 0; i < DIMENSION; i++) {
 			int i1 = swap(a, b, i);
 			for (int j = 0; j <= i; j++) {
@@ -69,7 +84,33 @@ public class ConicMatrix {
 		return result;
 	}
 
-	private int swap(int a, int b, int i) {
+	public ConicMatrix variableSymetry(int a, ConicMatrix result) {
+		for (int i = 0; i < DIMENSION; i++) {
+			for (int j = 0; j <= i; j++) {
+				result.coefficients[i][j] = this.coefficients[i][j];
+			}
+		}
+		for (int i = 0; i < a; i++) {
+			result.coefficients[a][i] = -result.coefficients[a][i];
+		}
+		for (int i = a + 1; i < DIMENSION; i++) {
+			result.coefficients[i][a] = -result.coefficients[i][a];
+		}
+		return result;
+	}
+
+	private static int swap(int a, int b, int i) {
 		return i == a ? b : i == b ? a : i;
+	}
+
+	public int evaluateSlopeSign(double... p) {
+		double x = 0;
+		double y = 0;
+		for (int i = 0; i < DIMENSION; i++) {
+			x += getCoefficient(0, i) * p[i];
+			y += getCoefficient(1, i) * p[i];
+		}
+		double k = x * y;
+		return k > 0 ? 1 : k < 0 ? -1 : 0;
 	}
 }
